@@ -3,7 +3,7 @@ entries:
   kuma:
   - apiVersion: v2
     appVersion: 2.8.2
-    created: "2025-07-17T07:50:09.746482443Z"
+    created: "2025-07-21T07:31:05.682756752Z"
     description: A Helm chart for the Kuma Control Plane
     digest: a636783f4db8261dff353c9c8473cc361b78f53a84be6759ba5afba9e0a1adc3
     home: https://github.com/kumahq/kuma
@@ -36,7 +36,7 @@ entries:
               url: https://github.com/oauth2-proxy/manifests/pull/243
     apiVersion: v2
     appVersion: 7.7.0
-    created: "2025-07-17T07:50:09.764825932Z"
+    created: "2025-07-21T07:31:05.698530814Z"
     dependencies:
     - alias: redis
       condition: redis.enabled
@@ -76,7 +76,7 @@ entries:
   oauth2-proxy-kuma:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-07-17T07:50:09.739658812Z"
+    created: "2025-07-21T07:31:05.674859209Z"
     dependencies:
     - enabled: true
       name: oauth2-proxy
@@ -87,9 +87,9 @@ entries:
       repository: https://kumahq.github.io/charts
       version: 2.8.2
     description: A Helm chart which contains chart for oauth2-proxy and kuma
-    digest: 609ee98e70914ce30421ce8e05c5fa6df85cdb26425390b4e842c03a4f8deb6f
+    digest: 38aa0be84030eef67a03520889af4efe637ca6d89ab80a35183f6296858e2d0d
     name: oauth2-proxy-kuma
     urls:
     - oauth2-proxy-kuma-1.0.0.tgz
     version: 1.0.0
-generated: "2025-07-17T07:50:09.713213343Z"
+generated: "2025-07-21T07:31:05.643463502Z"
